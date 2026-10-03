@@ -1,0 +1,30 @@
+[project]
+name = "lab5-modsim"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AleWWH1104", email = "irisale.ayala@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "geopandas>=1.2.0",
+    "matplotlib>=3.11.2",
+    "matplotlib-scalebar>=0.9.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "shapely>=2.1.2",
+]
+
+[project.scripts]
+lab5-modsim = "lab5_modsim:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]

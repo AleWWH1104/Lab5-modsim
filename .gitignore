@@ -1,5 +1,4 @@
 .env
 .venv/
-datos/
 .ipynb_checkpoints/
 .DS_Store
